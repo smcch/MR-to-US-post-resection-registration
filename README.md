@@ -89,7 +89,7 @@ redistributable and are not in this repository.
 `landmarks/ReMIND/` contains 119 homologous landmark pairs on 15 ReMIND patients, each pair annotated on the
 preoperative T2 and on the post-resection iUS, placed by two neurosurgeons and consolidated by the rules
 described in `landmarks/ReMIND/README.md` and in the paper (Section 2 and Supplementary Section S6). The files are
-3D Slicer markups (LPS coordinates) plus one CSV table. They are released under CC BY 4.0.
+3D Slicer markups (LPS coordinates) plus one CSV table. They are released under CC BY-NC 4.0.
 
 ## The full pipeline of the paper
 
@@ -110,4 +110,6 @@ database*, Sci. Data 11, 494 (2024).
 
 ## License
 
-Code: MIT (see `LICENSE`). Landmarks: CC BY 4.0.
+The code, the documentation and the landmarks are released for non-commercial use under the Creative Commons
+Attribution-NonCommercial 4.0 International license (CC BY-NC 4.0; see `LICENSE`). Commercial use requires the
+permission of the authors. This is research software and research data, not a medical device.

@@ -44,3 +44,8 @@ only the placements averaged into the released points.
 | Inter-observer: observer 2 vs the mean of observer 1's sessions | 2.88 ± 0.76 | 2.25 ± 0.31 |
 | Observer 2 vs observer 1, session 1 | 3.19 ± 0.71 | 2.57 ± 0.34 |
 | Observer 2 vs observer 1, session 2 | 3.25 ± 1.03 | 2.39 ± 0.50 |
+
+## License and citation
+The landmarks are released under the Creative Commons Attribution-NonCommercial 4.0 International license
+(CC BY-NC 4.0). Please cite the paper named in the repository README and the ReMIND collection (Juvekar P. et al.,
+ReMIND: the brain resection multimodal imaging database, Sci. Data 11, 494, 2024).
