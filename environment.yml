@@ -1,0 +1,24 @@
+# Environment of the paper's runs (Python 3.9, PyTorch 2.3 with CUDA 12.1, NVIDIA RTX 3090, Ubuntu 22.04 under WSL2).
+# conda env create -f environment.yml && conda activate fe-refinement
+name: fe-refinement
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pytorch=2.3.0
+  - pytorch-cuda=12.1
+  - numpy=1.26
+  - scipy=1.11
+  - nibabel=5.1
+  - scikit-image=0.22
+  - pandas=2.1
+  - matplotlib
+  # NiftyReg 1.5.69 (reg_aladin, reg_f3d) for affine_init.py and the free-form comparator; conda-forge builds it:
+  - niftyreg
+# Not in this file:
+#  - SynthSeg, for the label map of the preoperative MR: FreeSurfer >= 7.4 (`mri_synthseg --i mr.nii.gz --o seg.nii.gz --robust`)
+#    or the SynthSeg repository (github.com/BBillot/SynthSeg) with the same --robust option.
+#  - Comparators of the paper (optional): ConvexAdam 0.2.0 (pip), deedsBCV, ANTs (antspyx 0.3.8), and MCPO (the authors'
+#    official script, github.com/wjiazheng/MCPO, run at its defaults).
