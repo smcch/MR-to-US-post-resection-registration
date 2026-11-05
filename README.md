@@ -81,7 +81,7 @@ runs on the GPU, repeated runs differ slightly (the paper reports a second run: 
    case to 0.02 mm in the displacement field.
 
 RESECT (Xiao et al. 2017) and BITE (Mercier et al. 2012) are public and come with their own landmarks; the scripts
-in `reproduce/` show how they were used. The images and landmarks of the external site of the paper are not
+in `reproduce/` show how they were used. The images and landmarks of the Bratislava site of the paper are not
 redistributable and are not in this repository.
 
 ## Landmarks

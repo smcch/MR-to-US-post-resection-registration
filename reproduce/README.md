@@ -24,7 +24,7 @@ and the official MCPO script, which is not included). For running the proposed m
 | `scripts/rg_cohorts.py`, `scripts/resect_tags.py`, `scripts/bite_tags.py`, `scripts/single_config.py`, `scripts/method_arms.py` | Cohort definitions and landmark readers for RESECT and BITE. |
 | `scripts/v2_method.py`, `scripts/v2_deform.py`, `scripts/reg_core.py`, `scripts/reg_modal.py`, `scripts/biomech_basis.py` | The method (same files as `fe_refinement/`). |
 | `scripts/v2_remind_eval.py`, `scripts/affine_cascade.py`, `scripts/rs_prestage.py`, `scripts/rigid_*.py` | Older evaluation and pose code on which `fer_run.py` depends for a few functions. |
-| `scripts/brat_*.py`, `scripts/brat_*.sh` | Staging and processing of the external-site cases (data not redistributable). |
+| `scripts/brat_*.py`, `scripts/brat_*.sh` | Staging and processing of the Bratislava cases (data not redistributable). |
 | `scripts/fer_prepare_remind.py`, `scripts/stage_remind_new.sh` | Staging of ReMIND cases (affine, working grid). |
 | `scripts/landmarks_final_build.py`, `scripts/landmarks_final_stats.py` | The two-observer consensus rules that produced the released landmark set (Supplementary S6). |
 | `scripts/_inter_observer.py`, `scripts/_inter_agreement.py`, `scripts/_intra_*.py`, `scripts/_mr_duplicates.py`, `scripts/_lm_robustness.py` | Observer-variability analyses. |
