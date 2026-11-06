@@ -89,7 +89,8 @@ redistributable and are not in this repository.
 `landmarks/ReMIND/` contains 119 homologous landmark pairs on 15 ReMIND patients, each pair annotated on the
 preoperative T2 and on the post-resection iUS, placed by two neurosurgeons and consolidated by the rules
 described in `landmarks/ReMIND/README.md` and in the paper (Section 2 and Supplementary Section S6). The files are
-3D Slicer markups (LPS coordinates) plus one CSV table. They are released under CC BY-NC 4.0.
+3D Slicer markups (LPS coordinates) plus one CSV table. They are released under CC BY-NC 4.0 and deposited in
+Zenodo: https://doi.org/10.5281/zenodo.24008945.
 
 ## The full pipeline of the paper
 
@@ -105,8 +106,12 @@ MCPO is not included: the paper runs the authors' official script (github.com/wj
 ## Citation
 
 If you use the code or the landmarks, please cite the paper above (a preprint reference will be added here) and,
-for the landmarks, also the ReMIND collection: Juvekar P. et al., *ReMIND: the brain resection multimodal imaging
-database*, Sci. Data 11, 494 (2024).
+for the landmarks, also the dataset and the ReMIND collection:
+- Cepeda S., Esteban Sinovas O., *Expert-annotated landmarks for registration of preoperative MRI to
+  post-resection intraoperative ultrasound in the ReMIND dataset* [dataset], Zenodo, v1 (2026).
+  https://doi.org/10.5281/zenodo.24008945
+- Juvekar P. et al., *ReMIND: the brain resection multimodal imaging database*, Sci. Data 11, 494 (2024).
+  https://doi.org/10.1038/s41597-024-03295-z
 
 ## License
 

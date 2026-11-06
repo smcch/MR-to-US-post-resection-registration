@@ -47,5 +47,8 @@ only the placements averaged into the released points.
 
 ## License and citation
 The landmarks are released under the Creative Commons Attribution-NonCommercial 4.0 International license
-(CC BY-NC 4.0). Please cite the paper named in the repository README and the ReMIND collection (Juvekar P. et al.,
-ReMIND: the brain resection multimodal imaging database, Sci. Data 11, 494, 2024).
+(CC BY-NC 4.0) and deposited in Zenodo (https://doi.org/10.5281/zenodo.24008945). Please cite the paper named in
+the repository README, the Zenodo record (Cepeda S., Esteban Sinovas O., Expert-annotated landmarks for registration
+of preoperative MRI to post-resection intraoperative ultrasound in the ReMIND dataset [dataset], Zenodo, v1, 2026)
+and the ReMIND collection (Juvekar P. et al., ReMIND: the brain resection multimodal imaging database, Sci. Data 11,
+494, 2024).
