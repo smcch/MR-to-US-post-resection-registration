@@ -4,7 +4,7 @@ Code and landmarks of the paper
 
 > S. Cepeda, O. Esteban-Sinovas, A. Šteňo, B. Hrebeňárová, I. Arrese, R. Sarabia.
 > *Finite-element refinement of preoperative magnetic resonance to post-resection intraoperative ultrasound
-> registration in brain tumor surgery.* Submitted to Medical Image Analysis, 2026.
+> registration in brain tumor surgery.* Submitted
 
 The method is a deformable refinement stage applied after any initial alignment of the preoperative MR to the
 intraoperative ultrasound (iUS) sweep acquired after tumor resection. A patient-specific linear-elastic
@@ -105,7 +105,7 @@ MCPO is not included: the paper runs the authors' official script (github.com/wj
 
 ## Citation
 
-If you use the code or the landmarks, please cite the paper above (a preprint reference will be added here) and,
+If you use the code or the landmarks, please cite the paper above and,
 for the landmarks, also the dataset and the ReMIND collection:
 - Cepeda S., Esteban Sinovas O., *Expert-annotated landmarks for registration of preoperative MRI to
   post-resection intraoperative ultrasound in the ReMIND dataset* [dataset], Zenodo, v1 (2026).
